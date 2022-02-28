@@ -37,7 +37,7 @@ jobs:
           artifact: "/*.xml/"
 
           # Name of the Check Run which will be created
-          name: ''
+          name: 'kubescape results'
 
           # Coma separated list of paths to test results
           # Supports wildcards via [fast-glob](https://github.com/mrmlnc/fast-glob)
