@@ -30,6 +30,7 @@ jobs:
         # uses: mikepenz/action-junit-report@127c778ac944abc0f48a5103964304bab7eb208b
         uses: mikepenz/action-junit-report@v2.9.1
         with:
-          report_paths: "results/*.xml"
+          # report_paths: "results/*.xml"
+          report_paths: "junit.xml"
 
           
