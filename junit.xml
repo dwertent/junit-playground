@@ -1,8 +1,8 @@
-<testsuites>
-  <testsuite tests="1" time="" name="" resources="1" excluded="0" filed="1">
+<testsuites name="Kubescape">
+  <testsuite tests="1" time="" name="NSA" resources="1" excluded="0" filed="1">
     <properties></properties>
-    <testcase classname="C-0015" name="default/Deployment/nginx" time="0001-01-01 00:00:00 +0000 UTC" resources="1" excluded="0" filed="1">
-      <failure message="1 resources failed" type="">This is test in the failure tag</failure>
+    <testcase classname="C-0015" name="default/Deployment/nginx" time="0001-01-01 00:00:00 +0000 UTC" resources="1" excluded="0" filed="1" status="SomeStatus">
+      <failure message="1 resources failed" type="SomeTestType">This is test in the failure tag</failure>
     </testcase>
   </testsuite>
 </testsuites>
